@@ -13,7 +13,7 @@
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+다나와 페이지 접속 속
 
 ```bash
 git clone https://github.com/yusunglee2074/danawa-crawler
