@@ -8,7 +8,10 @@
 
 ## About <a name = "about"></a>
 
+Puppeteer
 다나와의 특정 카테고리 상품 리스트를 가져오는 스크립트입니다.
+
+![시연영상](https://github.com/yusunglee2074/danawa-crawler/blob/master/static/ezgif-4-910148a577e8.gif?raw=true)
 
 ## Getting Started <a name = "getting_started"></a>
 
