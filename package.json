@@ -4,7 +4,8 @@
   "description": "crawl danawa product details",
   "main": "dist/",
   "scripts": {
-    "start": "tsc --watch& nodemon ./dist"
+    "dev": "tsc --watch& nodemon ./dist",
+    "start": "node ./dist"
   },
   "author": "yusunglee",
   "license": "ISC",

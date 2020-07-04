@@ -4,7 +4,6 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
 - [Contributing](../CONTRIBUTING.md)
 
 ## About <a name = "about"></a>
@@ -13,40 +12,15 @@
 
 ## Getting Started <a name = "getting_started"></a>
 
-다나와 페이지 접속 속
-
 ```bash
 git clone https://github.com/yusunglee2074/danawa-crawler
 cd danawa-crawler
-node index.ts
+yarn install
+yarn start
 ```
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+![준비 해야할 url](https://github.com/yusunglee2074/danawa-crawler/blob/master/static/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-04%20%EC%98%A4%ED%9B%84%204.29.31.png?raw=true)
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
+이와 같이 상품 목록이 나오는 페이지의 URL을 준비해야 합니다.

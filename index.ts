@@ -5,13 +5,14 @@
 
 import readline from "readline";
 import puppeteer from "puppeteer";
+import fs from "fs";
 
 const rl = readline.createInterface({
   input: process.stdin,
 });
 
 console.log(
-  `다나와  URL를 입력해주세요.\n예) http://prod.danawa.com/list/?cate=1936375`
+  `다나와  URL를 입력해주세요.\n기본값) http://prod.danawa.com/list/?cate=1936375`
 );
 rl.once("line", async (url) => {
   const gotoUrl = url || "http://prod.danawa.com/list/?cate=1936375";
@@ -61,8 +62,13 @@ rl.once("line", async (url) => {
     );
 
     pageNum++;
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    // 다나와 페이지 내부 스크립트 메소드인 movePage 이용해서 페이지 이동
     page.evaluate((pageNum) => movePage(pageNum), pageNum);
     await page.waitForSelector("img[alt=로딩중]", { hidden: true });
   }
-  console.log(products);
+
+  fs.writeFileSync("result.json", JSON.stringify(products));
+  console.log("완료 했습니다. result.json");
 });
