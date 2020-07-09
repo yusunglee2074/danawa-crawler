@@ -5,6 +5,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Contributing](../CONTRIBUTING.md)
+- [TODO](#todo)
 
 ## About <a name = "about"></a>
 
@@ -27,3 +28,7 @@ yarn start
 ![준비 해야할 url](https://github.com/yusunglee2074/danawa-crawler/blob/master/static/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-07-04%20%EC%98%A4%ED%9B%84%204.29.31.png?raw=true)
 
 이와 같이 상품 목록이 나오는 페이지의 URL을 준비해야 합니다.
+
+### Todo <a name = "todo"></a>
+
+- [ ] 가져올 데이터  
