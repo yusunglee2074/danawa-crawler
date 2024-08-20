@@ -10,7 +10,7 @@
   "author": "yusunglee",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.28.0",
     "global": "^4.4.0",
     "puppeteer": "^4.0.1"
   },
